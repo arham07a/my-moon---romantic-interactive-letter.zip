@@ -694,7 +694,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <div className={`absolute bottom-4 w-full text-center text-xs opacity-40 ${isDark ? 'text-slate-500' : 'text-slate-400'}`}>
-         Made with ❤️ by Khushter
+         Made with ❤️ by Aaham.
       </div>
 
       {/* Modals */}
