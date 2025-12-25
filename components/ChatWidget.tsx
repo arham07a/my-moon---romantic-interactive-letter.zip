@@ -68,7 +68,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ theme, recipientName, accentCol
       // Construct history for context
       let historyText = "";
       messages.slice(-6).forEach(m => {
-          historyText += `${m.sender === 'user' ? 'Mahi' : 'Khushter'}: ${m.text}\n`;
+          historyText += `${m.sender === 'user' ? 'Aaham : 'Khushter'}: ${m.text}\n`;
       });
 
       // Using gemini-3-flash-preview for basic text task as per guideline
