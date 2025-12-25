@@ -41,7 +41,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ theme, recipientName, accentCol
        setMessages([{
            id: 'intro',
            sender: 'bot',
-           text: `Hey ${recipientName}! ✨ Khushter here (well, kinda). Kaisi ho Moon? 🌙`,
+           text: `Hey ${recipientName}! ✨ Aaham here (well, kinda). Kaisi ho Butterfly? 🦋`,
            timestamp: Date.now()
        }]);
     }
@@ -153,7 +153,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ theme, recipientName, accentCol
                    <Moon size={18} />
                 </div>
                 <div>
-                  <h3 className={`font-bold text-sm ${textColor}`}>Khushter AI</h3>
+                  <h3 className={`font-bold text-sm ${textColor}`}>Aaham AI</h3>
                   <p className={`text-xs ${isDark ? 'text-green-400' : 'text-green-600'}`}>Online • Typing...</p>
                 </div>
               </div>
