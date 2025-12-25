@@ -21,7 +21,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin, onClose, accentColor }
     // Simulating a secure check
     setTimeout(() => {
         // Simple hardcoded password for the lunar theme
-        if (password.toLowerCase() === 'moon123' || password.toLowerCase() === 'mahi') {
+        if (password.toLowerCase() === 'AAFI2728' || password.toLowerCase() === 'AAHAM') {
           onLogin();
           onClose();
         } else {
